@@ -1,0 +1,65 @@
+.teamroom-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    flex-direction: column;
+    position: relative;
+  }
+  .teamroom-container h1{
+    position: absolute;
+    top:0;
+    font-size:4vw;
+    font-family: HarryP;
+  }
+
+  .gryffindor {
+    
+  
+    background: linear-gradient(to bottom, #740001 ,#b40202,#ae0001,  rgb(211, 166, 166));
+  }
+  
+  .slytherin {
+    
+    background: linear-gradient(to bottom, #1a472a,#2a623d,#2a623d,  rgb(122, 146, 123));
+  }
+  
+  .ravenclaw {
+    background: linear-gradient(to right, #0e1a40, #222f5b);
+  }
+  
+  .hufflepuff {
+    background: linear-gradient(to right, #ffdb58, #cba135);
+  }
+  
+
+.team-list{
+    display: flex;
+    max-width: 50%;
+    flex-wrap: wrap;
+    gap:10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-game-button{
+    padding: 12px 24px;
+  font-size: 2vw;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: #16a34a;
+  color: white;
+  position: absolute;
+  bottom:0;
+  margin-bottom: 2vw;
+}
+
+.start-game-button:hover{
+    background-color: #15803d;
+}

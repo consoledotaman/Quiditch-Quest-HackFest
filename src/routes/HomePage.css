@@ -1,0 +1,84 @@
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgb(45, 143, 173) ,rgb(86, 180, 242),white,rgb(142, 190, 221),  white);
+
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+
+.home-image img {
+  width: 40vw;
+  border-radius: 10px;
+  
+}
+
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-left: 40px;
+  max-width: 45vw;
+}
+
+.home-title {
+  font-size: 7vw;
+  font-weight: bold;
+  color:rgb(222, 201, 82);
+  font-family: HarryP;
+  margin:0;
+  padding:10px;
+}
+
+.home-description {
+  font-size: 2vw;
+  color: #000;
+}
+
+
+.home-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 2vw;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.start-game {
+  background-color: #2563eb;
+  color: white;
+}
+
+.start-game:hover {
+  background-color: #1d4ed8;
+}
+
+.enter-quidditch {
+  background-color: #16a34a;
+  color: white;
+}
+
+.enter-quidditch:hover {
+  background-color: #15803d;
+}
+
+
+.home-logo{
+    position: absolute;
+    top:0;
+    
+}

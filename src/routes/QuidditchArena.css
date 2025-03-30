@@ -1,0 +1,181 @@
+
+.stadium-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    overflow: hidden;
+    margin:none;
+    padding: none;
+  }
+  
+  .stadium-background {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #093209;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgba(16, 78, 16, 0.5);
+  }
+  
+  .stadium-oval {
+    width: 80%;
+    height: 60%;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 20px solid #8b4513;
+    overflow: visible;
+  }
+  
+  .field {
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+      0deg,
+      #005500,
+      #005500 10px,
+      #007700 10px,
+      #007700 20px
+    );
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .goal-area {
+    position: absolute;
+    width: 25%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+  }
+  
+  .goal-area.left {
+    left: -5%;
+  }
+  
+  .goal-area.right {
+    right: -5%;
+  }
+  
+  .center-emblem {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+  }
+  
+  .emblem-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #005500;
+  }
+  
+  .emblem-h {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #005500;
+  }
+  
+  .towers-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .tower {
+    position: absolute;
+    width: 10px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    margin-left: -5px;
+    transform-origin: bottom center;
+    z-index: 10;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+  }
+  
+  
+  .tower {
+    margin-top: -100%; 
+  }
+
+
+.griffindor-score{
+    position: absolute;
+    top:0;
+    left:5%;
+
+    font-size: 2.7vw;
+    margin-top: 1vw;
+}
+
+.slytherin-score{
+    position: absolute;
+    top:0;
+    right:5%;
+    font-size: 2.7vw;
+    margin-top: 1vw;
+}
+
+.question{
+    position: absolute;
+    top:5%;
+    z-index: 10;
+    color:#000;
+    background-color: #fff;
+    padding: 1vw;
+    border-radius: 2vw;
+
+}
+
+.question h2{
+    margin:0;
+    padding:0;
+    font-size: 1.5vw;
+}
+.question p{
+    margin:0;
+    padding:0;
+}
+
+.answer-box-comp{
+    position: absolute;
+    bottom:0;
+    height:8vw;
+    width:15vw;
+    z-index: 11;
+}
+
+.quiz-chat-comp{
+    position: absolute;
+    bottom:50%;
+    height:8vw;
+    width:15vw;
+    z-index: 11;
+    right:2%;
+}

@@ -1,0 +1,119 @@
+.top-banner{
+    max-width:100%;
+    object-fit: contain;
+    height: auto;
+    
+    margin: none;
+    padding:none;
+}
+.username-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  .username-popup h2 {
+    margin-bottom: 15px;
+    color: #ffcc00;
+  }
+  
+  .username-popup input {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .username-popup button {
+    padding: 10px 20px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .username-popup button:hover {
+    background: #ffcc00;
+  }
+.top-banner img{
+    max-width:100%;
+    
+}
+
+
+.quidditch-container{
+    background-color: #000;
+    min-height: 100vh;
+    position: relative;
+}
+
+.banner-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:8vw;
+    
+    padding: 0;
+    width: 100%;
+    
+}
+
+.house-banner{
+    width:20vw;
+    height: auto;
+    animation: scaleUpDown 3s infinite ease-in-out;
+    border:3px solid #EFB057;
+    cursor: pointer;
+}
+.house-banner img{
+    max-width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.select-house{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.select-house h1{
+    margin:0;
+    padding:0;
+    color:#EFB057;
+}
+.welcome-message{
+    color:#fff;
+}
+.house-description{
+    margin: 0;
+    margin-bottom: 1vw;
+    padding:0;
+    color:#EFB057;
+}
+@keyframes scaleUpDown {
+    0% {
+      transform: scale(.8);
+    }
+    50% {
+      transform: scale(.9); 
+    }
+    100% {
+      transform: scale(.8);
+    }
+}
+  
+
+  

@@ -1,0 +1,27 @@
+{
+    "Gryffindor": [
+      { "id": 1, "name": "Harry Potter", "avatar": "/avatars/harry.png" },
+      { "id": 2, "name": "Hermione Granger", "avatar": "/avatars/hermione.png" },
+      { "id": 3, "name": "Ron Weasley", "avatar": "/avatars/ron.png" },
+      { "id": 4, "name": "Neville Longbottom", "avatar": "/avatars/neville.png" }
+    ],
+    "Slytherin": [
+      { "id": 1, "name": "Draco Malfoy", "avatar": "/avatars/draco.png" },
+      { "id": 2, "name": "Pansy Parkinson", "avatar": "/avatars/pansy.png" },
+      { "id": 3, "name": "Blaise Zabini", "avatar": "/avatars/blaise.png" },
+      { "id": 4, "name": "Theodore Nott", "avatar": "/avatars/theodore.png" }
+    ],
+    "Ravenclaw": [
+      { "id": 1, "name": "Luna Lovegood", "avatar": "/avatars/luna.png" },
+      { "id": 2, "name": "Cho Chang", "avatar": "/avatars/cho.png" },
+      { "id": 3, "name": "Terry Boot", "avatar": "/avatars/terry.png" },
+      { "id": 4, "name": "Padma Patil", "avatar": "/avatars/padma.png" }
+    ],
+    "Hufflepuff": [
+      { "id": 1, "name": "Cedric Diggory", "avatar": "/avatars/cedric.png" },
+      { "id": 2, "name": "Hannah Abbott", "avatar": "/avatars/hannah.png" },
+      { "id": 3, "name": "Ernie Macmillan", "avatar": "/avatars/ernie.png" },
+      { "id": 4, "name": "Susan Bones", "avatar": "/avatars/susan.png" }
+    ]
+  }
+  
